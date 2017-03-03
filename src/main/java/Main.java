@@ -1,3 +1,5 @@
+import java.util.Date;
+
 /**
  * In this exercise we're going to create an example class named Animal,
  * instantiate a new instance of it, and print it out to the console.
@@ -24,6 +26,8 @@ public class Main {
      * Animal class, store it in a variable, and then print it to the console.
      */
     public static void main(String[] args) {
+        Animal animal = new Animal();
+        System.out.println(animal);
 
         // todo: create a variable that can hold an Animal and assign it to a new instance of an animal
 
